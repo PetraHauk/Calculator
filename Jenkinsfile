@@ -7,6 +7,10 @@ pipeline {
         DOCKER_IMAGE_TAG = 'ver2'
     }
 
+    tools {
+        dockerTool 'Docker Hub'
+    }
+
     stages {
         stage('Checkout') {
             steps {
