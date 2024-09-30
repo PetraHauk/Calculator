@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ADirin/devopschain_f2024.git'
+                git 'https://github.com/PetraHauk/Calculator.git'
             }
         }
         stage('Run Tests') {
