@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
-        DOCKERHUB_REPO = 'amirdi/devopschain'
+        DOCKERHUB_CREDENTIALS_ID = 'docker_credentials'
+        DOCKERHUB_REPO = 'petra/devopschain'
         DOCKER_IMAGE_TAG = 'ver2'
     }
 
